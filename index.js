@@ -226,9 +226,11 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-  /*add your code here*/
+function miles(km){
+  return km * 0.621371;
 }
+
+console.log('task 5a' , miles(2));
 
 
 
